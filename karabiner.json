@@ -153,6 +153,21 @@
 								"type": "basic"
 							}
 						]
+					},
+					{
+						"description": "Close tab",
+						"manipulators": [
+							{
+								"from": {
+									"pointing_button": "button3"
+								},
+								"to": {
+									"key_code": "w",
+									"modifiers": ["right_command"]
+								},
+								"type": "basic"
+							}
+						]
 					}
 				]
 			},
