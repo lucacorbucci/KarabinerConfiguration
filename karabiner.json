@@ -117,6 +117,42 @@
 								"type": "basic"
 							}
 						]
+					},
+					{
+						"description": "Go to next Desktop",
+						"manipulators": [
+							{
+								"from": {
+									"pointing_button": "button4",
+									"modifiers": {
+										"mandatory": ["left_control"]
+									}
+								},
+								"to": {
+									"key_code": "right_arrow",
+									"modifiers": ["left_control"]
+								},
+								"type": "basic"
+							}
+						]
+					},
+					{
+						"description": "Go to previous Desktop",
+						"manipulators": [
+							{
+								"from": {
+									"pointing_button": "button5",
+									"modifiers": {
+										"mandatory": ["left_control"]
+									}
+								},
+								"to": {
+									"key_code": "left_arrow",
+									"modifiers": ["left_control"]
+								},
+								"type": "basic"
+							}
+						]
 					}
 				]
 			},
