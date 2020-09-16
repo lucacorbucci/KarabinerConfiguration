@@ -45,7 +45,7 @@
 						]
 					},
 					{
-						"description": "Invert CMD+W with CMD+H",
+						"description": "Invert CMD+W with CMD+E",
 
 						"manipulators": [
 							{
@@ -63,7 +63,7 @@
 									"modifiers": {
 										"mandatory": ["left_command"]
 									},
-									"key_code": "h"
+									"key_code": "e"
 								},
 								"to": {
 									"modifiers": ["left_command"],
@@ -98,7 +98,10 @@
 							{
 								"conditions": [
 									{
-										"bundle_identifiers": ["org.mozilla.firefox"],
+										"bundle_identifiers": [
+											"org.mozilla.firefox",
+											"org.mozilla.nightly"
+										],
 										"type": "frontmost_application_if"
 									}
 								],
